@@ -1,0 +1,28 @@
+/* Reset and Base Overrides */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  min-height: 100%;
+  height: auto;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background-color: #030307;
+}
+
+#root {
+  display: block;
+  text-align: left;
+  border-inline: none;
+  min-height: 100vh;
+  height: auto;
+}
